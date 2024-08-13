@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3010636827476727826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7897639088993754663}
+  - component: {fileID: 8761467137816943065}
+  m_Layer: 0
+  m_Name: AudioPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7897639088993754663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3010636827476727826}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 612.5339, y: 1.9504358, z: 293.23123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8761467137816943065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3010636827476727826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3935f304668f2404e968d5cda5c7e0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepWalkClip: {fileID: 8300000, guid: a0be558fe3c4b8a478b1213fc4cd0932, type: 3}
+  footstepRunClip: {fileID: 8300000, guid: 8f3b1d22697ada847b17ae40dd2de4c5, type: 3}
+  pitol: {fileID: 8300000, guid: f59f54eae4717b44d8a8052fd243428f, type: 3}
+  asset: {fileID: 8300000, guid: 01b349ac148e1cd41b41a4991c7e4163, type: 3}
+  SMR: {fileID: 8300000, guid: 01b349ac148e1cd41b41a4991c7e4163, type: 3}
+  Shotgun: {fileID: 8300000, guid: c4984473c685e0843854d12c5e97e7f0, type: 3}
+  Sniper: {fileID: 8300000, guid: e25817d12f842604dbef1c8b14b1836c, type: 3}
+  Sound: 0.5
+  ClickMouse: {fileID: 8300000, guid: 16a439161ee089c4ba682373c1c9e23c, type: 3}
